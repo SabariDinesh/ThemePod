@@ -31,7 +31,7 @@
 		1FC7D2576FE3490B69DBCFBC /* Pods_ThemePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThemePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22747CA34073D710AE6AEAD8 /* Pods-ThemePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemePod_Tests.release.xcconfig"; path = "Target Support Files/Pods-ThemePod_Tests/Pods-ThemePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2392414189CCE3F74D57B015 /* Pods-ThemePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemePod_Example.release.xcconfig"; path = "Target Support Files/Pods-ThemePod_Example/Pods-ThemePod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B13BB1D8CBFC31D74E0332B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B13BB1D8CBFC31D74E0332B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3629F95D41DC52513E316659 /* Pods-ThemePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemePod_Example.debug.xcconfig"; path = "Target Support Files/Pods-ThemePod_Example/Pods-ThemePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ThemePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9672ABC09513477292B1ACCB /* Pods_ThemePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThemePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9883C820862456FC4AD71322 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9883C820862456FC4AD71322 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B1ED50AAE239A68176672406 /* Pods-ThemePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemePod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ThemePod_Tests/Pods-ThemePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C904CB80CFD6880FB4ACD2DF /* ThemePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThemePod.podspec; path = ../ThemePod.podspec; sourceTree = "<group>"; };
+		C904CB80CFD6880FB4ACD2DF /* ThemePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThemePod.podspec; path = ../ThemePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				B1ED50AAE239A68176672406 /* Pods-ThemePod_Tests.debug.xcconfig */,
 				22747CA34073D710AE6AEAD8 /* Pods-ThemePod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
