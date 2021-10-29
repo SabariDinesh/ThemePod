@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Theme pod you are looking for.... heres the one from that you can extend the theme protocol and implement your own theme class and create a new theme variable and put it when you launch the screen and thats it '
                        DESC
 
   s.homepage         = 'https://github.com/SABARI DINESH K/ThemePod'
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/SABARI DINESH K/ThemePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'ThemePod/Classess/**/*'
   
   # s.resource_bundles = {
   #   'ThemePod' => ['ThemePod/Assets/*.png']
