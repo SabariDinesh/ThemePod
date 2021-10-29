@@ -1,7 +1,7 @@
 import Foundation
 
 /// Anything that wants to use theme
-public protocol ThemeUser: class {}
+public protocol ThemeUser: AnyObject {}
 
 public extension ThemeUser {
 
