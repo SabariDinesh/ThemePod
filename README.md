@@ -24,24 +24,25 @@ struct MyTheme: Theme {
 Then create some themes based on your templates
 
 let dayTheme = MyTheme(topImage: UIImage(named: "day"), cellColor: .white)
-let nightTheme = MyTheme(topImage: UIImage(named: "night"), cellColor: .black)
-The beauty of this is that you can init your theme from json, which can be fetched from backend 🚀
 
-let json = [
-  "primary_color": "#21ABE9",
-  "font_name": "Chewy"
-]
-let unicornTheme = MyTheme(json)
+let nightTheme = MyTheme(topImage: UIImage(named: "night"), cellColor: .black)
+
+
+
 Step 2: Register your current theme
 When app launches, you need to declare 1 theme as the current, it can be loaded from cache
 
 ThemeManager.shared.currentTheme = dayTheme
+
+
 Step 3: React to theme change
 You can do this wherever you like. It is set using the current theme, and whenever theme changes
+
 
 // ViewController.swift
 override func viewDidLoad() {
   super.viewDidLoad()
+
 
   use(MyTheme.self) {
     $0.title = $1.name
@@ -51,6 +52,7 @@ override func viewDidLoad() {
     $0.tableView.reloadData()
   }
 }
+
 
 // Cell.swift
 override func awakeFromNib() {
@@ -65,8 +67,11 @@ override func awakeFromNib() {
     $0.container.backgroundColor = $1.cellColor
   }
 }
+
+
 Step 4: Change the theme
 Change the current theme is as easy as assigning a new theme. All happens in real time and very fast
+
 
 ThemeManager.shared.currentTheme = nightTheme
 
