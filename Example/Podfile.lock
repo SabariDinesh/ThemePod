@@ -1,0 +1,16 @@
+PODS:
+  - ThemePod (0.1.0)
+
+DEPENDENCIES:
+  - ThemePod (from `../`)
+
+EXTERNAL SOURCES:
+  ThemePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThemePod: d368f6b71d6dbd2d8ea7a8687472c3468a5ae867
+
+PODFILE CHECKSUM: c923291a2191dffd8b9084c672a555dac314a2ea
+
+COCOAPODS: 1.11.2

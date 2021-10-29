@@ -1,0 +1,22 @@
+{
+  "name": "ThemePod",
+  "version": "0.1.0",
+  "summary": "A short description of ThemePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SABARI DINESH K/ThemePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SABARI DINESH K": "sabaridinesh.ec18@bitsathy.ac.in"
+  },
+  "source": {
+    "git": "https://github.com/SABARI DINESH K/ThemePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ThemePod/Classes/**/*"
+}

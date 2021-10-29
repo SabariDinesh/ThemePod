@@ -1,0 +1,6 @@
+framework module ThemePod {
+  umbrella header "ThemePod-umbrella.h"
+
+  export *
+  module * { export * }
+}
