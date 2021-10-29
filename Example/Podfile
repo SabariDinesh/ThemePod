@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ThemePod_Example' do
+  pod 'ThemePod', :path => '../'
+
+  target 'ThemePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
